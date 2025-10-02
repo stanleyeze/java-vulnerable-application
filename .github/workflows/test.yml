@@ -6,7 +6,7 @@ on:
   pull_request:
     types: [opened]
 jobs: 
-  run-shell-command:
+  runshell-command:
     runs-on: ubuntu-latest
     steps:
       - name: Echo some out
